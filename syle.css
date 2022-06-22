@@ -218,35 +218,35 @@ html{
 .circle{
     color: rgb(28, 210, 223);
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 50px;
 }
 .hrt{
     color: rgb(28, 210, 223);
-    font-size: 30px;
+    font-size: 50px;
 
 }
 .user{
     color: rgb(28, 210, 223);
-    font-size: 30px;
+    font-size: 50px;
 }
 .treat{
-    color: #f57e1c;
-    font-size: 30px;
+    color: rgb(28, 210, 223);
+    font-size: 50px;
 } 
 .p{
-    color: #f57e1c;
-    font-size: 30px;  
+    color: rgb(28,210,223);
+    font-size: 50px;  
 }
 .book{
-    color: #f57e1c;
-    font-size: 30px;
+    color: rgb(28, 210, 223);
+    font-size: 50px;
 }
 .tables2{
     font-size: 20px;
     display: flex;
     margin-top: -1%;
     text-align: center;
-    color: rgb(28, 210, 223);
+    color: white;
     margin-right: 5%;
     margin-left: 5%;  
 }
@@ -268,6 +268,7 @@ html{
     margin-top: 5%;
 }
 .orders{
+    font-size: 30px;
     color: rgb(28, 210, 223);
     justify-content: center;
     font-size: 20px;
@@ -282,10 +283,12 @@ html{
     margin-left: 5%; 
 }
  .butt{
+     margin-top: 0.5%;
+   margin-left: 30%;
    font-size: medium;
    color: white;
-   background-color: #7dc0c4;
-   padding: 2%;         
+   background-color: #f57e1c;
+   padding: 1%;         
    border-radius: 1500px;
    height: 40px;
    width: 150px;
@@ -309,3 +312,47 @@ html{
     margin-top: 1%; 
     padding-right: 100%; 
 }
+/* contacts section */
+.Signup-box{
+    width: 360px;
+    height: 620PX; 
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    justify-content: center;
+ }
+
+
+ form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgb(28, 210, 223);
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20%;
+    border: none;
+    background-color: white;
+    color: white;
+    font-size: 18px;
+}
+
+ .Submit btn{
+     position: relative;
+     color: rgb(28, 210, 223);
+
+ }
